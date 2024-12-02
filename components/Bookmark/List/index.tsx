@@ -1,8 +1,8 @@
 import BookmarkCard from "./Card";
 import { getBookmarkData } from "@/utils/db/fetchData";
 import { BookmarkWithMemo } from "@/types/bookmarkType";
-import { BreadcrumbType } from "@/types/breadcrumbType";
-import { getBreadcrumbPath } from "@/utils/common/breadcrumbs";
+// import { BreadcrumbType } from "@/types/breadcrumbType";
+// import { getBreadcrumbPath } from "@/utils/common/breadcrumbs";
 
 type Props = {
   folderId?: string;

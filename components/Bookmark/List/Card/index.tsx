@@ -2,7 +2,7 @@ import Image from "next/image";
 import noImage from "@/public/images/no-image.png";
 import SettingButton from "./SettingButton";
 import { BookmarkWithMemo } from "@/types/bookmarkType";
-import { BreadcrumbType } from "@/types/breadcrumbType";
+// import { BreadcrumbType } from "@/types/breadcrumbType";
 
 type Props = {
   bookmark: BookmarkWithMemo;
